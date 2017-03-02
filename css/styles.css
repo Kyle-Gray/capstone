@@ -3,13 +3,20 @@ nav .brand-logo {
   color: #444;
 }
 nav {
-  padding-bottom: 8rem;
+  padding-bottom: 7.6rem;
 }
 p {
   line-height: 2rem;
 }
-.section{
-
+#logo {
+  height:6rem !important;
+}
+#blackBar{
+  height:3.5rem !important;
+}
+.links{
+  margin-top: -2rem;
+  padding-right: 2rem;
 }
 
 .treatments{
