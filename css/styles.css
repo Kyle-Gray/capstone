@@ -23,6 +23,10 @@ p {
   margin-top: 5rem;
 }
 
+.card.small{
+  margin-right: 5rem;
+}
+
 .button-collapse {
   color: #26a69a;
 }
