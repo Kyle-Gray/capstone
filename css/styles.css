@@ -14,6 +14,10 @@ p {
 #blackBar{
   height:3.5rem !important;
 }
+
+#calendar{
+  padding-top: 4rem;
+}
 .links{
   margin-top: -2rem;
   padding-right: 2rem;
