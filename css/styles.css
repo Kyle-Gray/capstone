@@ -13,10 +13,17 @@ p {
 }
 #blackBar{
   height:3.5rem !important;
+
 }
 
 #calendar{
   padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.profilePic{
+  padding-right: 3rem;
+  height: 20rem;
 }
 .links{
   margin-top: -2rem;
@@ -52,6 +59,9 @@ p {
   }
   #index-banner .section {
     top: 10%;
+  }
+  #blackBar{
+    top: 0;
   }
 }
 
