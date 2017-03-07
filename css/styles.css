@@ -2,15 +2,19 @@ nav ul a,
 nav .brand-logo {
   color: #444;
 }
+
 nav {
   padding-bottom: 7.6rem;
 }
+
 p {
   line-height: 2rem;
 }
+
 #logo {
   height:6rem !important;
 }
+
 #blackBar{
   height:3.5rem !important;
 
@@ -19,6 +23,14 @@ p {
 #calendar{
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+.container{
+  padding-top: 3rem;
+}
+
+.section{
+  padding-top: 0 !important;
 }
 
 .profilePic{
