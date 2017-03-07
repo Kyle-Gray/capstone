@@ -13,11 +13,12 @@ p {
 
 #logo {
   height:6rem !important;
+  padding-left: 5rem;
 }
 
 #blackBar{
   height:3.5rem !important;
-
+  width: 100%;
 }
 
 #calendar{
@@ -33,9 +34,17 @@ p {
   padding-top: 0 !important;
 }
 
+.treatmentsPage{
+  background-color: darkgrey;
+}
+
+.headerPic{
+  width: 100%;
+}
+
 .profilePic{
-  padding-right: 3rem;
   height: 20rem;
+  width: auto;
 }
 .links{
   margin-top: -2rem;
@@ -75,6 +84,9 @@ p {
   #blackBar{
     top: 0;
   }
+  nav{
+    margin-top: 2rem;
+  }
 }
 
 @media only screen and (max-width : 600px) {
@@ -92,4 +104,5 @@ p {
 
 footer.page-footer {
   margin: 0;
+  padding-top: 0;
 }
