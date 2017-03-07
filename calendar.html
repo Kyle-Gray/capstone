@@ -1,56 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <link rel="stylesheet" href="../../node_modules/fullcalendar/dist/fullcalendar.css" />
-  <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
-  <script src="../../node_modules/moment/min/moment.min.js"></script>
-  <script src="../../node_modules/fullcalendar/dist/fullcalendar.js"></script>
-  <script type="text/javascript">
-  $(document).ready(function() {
-  $('#calendar').fullCalendar({
-    weekends : false,
-    dayClick: function() {
-        alert('a day has been clicked!');
-    }
-  })
-});
-  </script>
-  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
-  <link href="css/styles.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Calendar</title>
+    <link rel="stylesheet" href="../../node_modules/fullcalendar/dist/fullcalendar.css" />
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../../node_modules/moment/min/moment.min.js"></script>
+    <script src="../../node_modules/fullcalendar/dist/fullcalendar.js"></script>
+    <script src="../../node_modules/fullcalendar/dist/gcal.js"></script>
+    <script src="../../node_modules/fullcalendar-scheduler/dist/scheduler.js"></script>
+    <link rel="stylesheet" href="../../node_modules/fullcalendar-scheduler/dist/scheduler.css" />
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#calendar').fullCalendar({
+                googleCalendarApiKey: 'AIzaSyBqb8KF5svFDsXC41xbPNcSvqDiZiVHO0M',
+                events: {
+                    googleCalendarId: 'th33nd3r@gmail.com'
+                },
+                // defaultView: 'agendaDay',
+                // events: [
+                //     // events go here
+                // ],
+                // resources: [{
+                //     id: 'New Patient',
+                //     title: 'New Patient'
+                // },
+                // {
+                //     id: 'Adjustment',
+                //     title: 'Adjustment'
+                // },
+                // {
+                //     id: 'Physical Therapy',
+                //     title: 'Physical Therapy'
+                // },
+                // {
+                //     id: 'Massage',
+                //     title: 'Massage'
+                // }],
+                schedulerLicenseKey: 'GPL-My-Project-Is-Open-Source'
+                    // other options go here...
+            });
+        });
+    </script>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <link href="css/styles.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calendar</title>
 </head>
+
 <body>
-  <nav class="white" role="navigation">
-      <div class="nav-wrapper">
-        <a id="logo-container" href="#" class="brand-logo"><img id="logo" src="img/logo.png" alt="Advanced Healthcare Logo" class="responsive-img"></a>
-        <img id="blackBar" class="responsive-img" src="img/black-bar.png" alt="black bar">
-        <div class="links">
-        <ul class="right hide-on-med-and-down">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="aboutUs.html">About Us</a></li>
-          <li><a href="treatments.html">Treatments</a></li>
-          <li><a href="calendar.html">Online Scheduler</a></li>
-          <li><a href="https://advanced-chiropractic-fc.myshopify.com/">Shop</a></li>
-        </ul>
-      </div>
+    <nav class="white" role="navigation">
+        <div class="nav-wrapper">
+            <a id="logo-container" href="#" class="brand-logo"><img id="logo" src="img/logo.png" alt="Advanced Healthcare Logo" class="responsive-img"></a>
+            <img id="blackBar" class="responsive-img" src="img/black-bar.png" alt="black bar">
+            <div class="links">
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                    <li><a href="treatments.html">Treatments</a></li>
+                    <li><a href="calendar.html">Online Scheduler</a></li>
+                    <li><a href="https://advanced-chiropractic-fc.myshopify.com/">Shop</a></li>
+                </ul>
+            </div>
 
-        <ul id="nav-mobile" class="side-nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="aboutUs.html">About Us</a></li>
-          <li><a href="treatments.html">Treatments</a></li>
-          <li><a href="calendar.html">Online Scheduler</a></li>
-          <li><a href="https://advanced-chiropractic-fc.myshopify.com/">Shop</a></li>
-        </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-      </div>
+            <ul id="nav-mobile" class="side-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="treatments.html">Treatments</a></li>
+                <li><a href="calendar.html">Online Scheduler</a></li>
+                <li><a href="https://advanced-chiropractic-fc.myshopify.com/">Shop</a></li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
     </nav>
-  <div class="container">  
-  <div id="calendar"></div>
-</div>
+    <div class="container">
+        <div id="calendar"></div>
+    </div>
 
+    <div class="container">
+      <iframe src="https://calendar.google.com/calendar/embed?src=th33nd3r%40gmail.com&ctz=America/Denver" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
 </body>
+
 </html>
