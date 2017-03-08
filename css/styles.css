@@ -28,6 +28,11 @@ p {
 
 #specialOffer{
   height:15rem !important;
+  margin-top: 15rem;
+}
+
+#patientSpecial{
+  margin-left: 3rem;
 }
 
 .recommend{
@@ -76,7 +81,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 450px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
