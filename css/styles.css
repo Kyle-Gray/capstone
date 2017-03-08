@@ -1,125 +1,129 @@
-nav ul a,
-nav .brand-logo {
-  color: #444;
+nav ul a, nav .brand-logo {
+    color: #444;
 }
 
 nav {
-  padding-bottom: 7.6rem;
+    padding-bottom: 7.6rem;
 }
 
 p {
-  line-height: 2rem;
+    line-height: 2rem;
 }
 
 #logo {
-  height:6rem !important;
-  padding-left: 5rem;
+    height: 6rem !important;
+    padding-left: 5rem;
+    margin-top: 1rem;
 }
 
-#blackBar{
-  height:3.5rem !important;
-width:100%;
+#blackBar {
+    height: 3.5rem !important;
+    width: 100%;
 }
 
-#calendar{
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+#calendar {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
-#specialOffer{
-  height:15rem !important;
-  margin-top: 15rem;
+#specialOffer {
+    height: 15rem !important;
+    margin-top: 15rem;
 }
 
-#patientSpecial{
-  margin-left: 3rem;
+#patientSpecial {
+    margin-left: 3rem;
 }
 
-.recommend{
-  margin-top: 2rem;
+.recommend {
+    margin-top: 2rem;
 }
 
-.disclaimers{
-  padding-left: 4rem;
-}
-.container{
-  padding-top: 3rem;
+.disclaimers {
+    padding-left: 4rem;
 }
 
-.section{
-  padding-top: 0 !important;
+.container {
+    padding-top: 3rem;
 }
 
-.treatmentsPage{
-  background-color: darkgrey;
+.section {
+    padding-top: 0 !important;
 }
 
-.headerPic{
-  width: 100%;
+.treatmentsPage {
+    background-color: darkgrey;
 }
 
-.profilePic{
-  height: 20rem;
-  width: auto;
-}
-.links{
-  margin-top: -2rem;
-  padding-right: 2rem;
+.headerPic {
+    width: 100%;
 }
 
-.treatments{
-  margin-top: 5rem;
+.profilePic {
+    height: 20rem;
+    width: auto;
 }
 
-.card.small{
-  margin-right: 5rem;
-  padding-top: 1rem;
+.links {
+    margin-top: -2rem;
+    padding-right: 2rem;
+}
+
+.treatments {
+    margin-top: 5rem;
+}
+
+.card.small {
+    margin-right: 5rem;
+    padding-top: 1rem;
 }
 
 .button-collapse {
-  color: #26a69a;
+    color: #26a69a;
 }
 
 .parallax-container {
-  min-height: 450px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+    min-height: 450px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
 }
-  .parallax-container .section {
+
+.parallax-container .section {
     width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-  #blackBar{
-    top: 0;
-  }
-  nav{
-    margin-top: 2rem;
-  }
 }
 
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+    #blackBar {
+        top: 0;
+    }
+    nav {
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
 }
 
 .icon-block {
-  padding: 0 15px;
+    padding: 0 15px;
 }
+
 .icon-block .material-icons {
-  font-size: inherit;
+    font-size: inherit;
 }
 
 footer.page-footer {
-  margin: 0;
-  padding-top: 0;
+    margin: 0;
+    padding-top: 0;
 }
