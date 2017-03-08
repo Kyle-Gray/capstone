@@ -26,6 +26,17 @@ p {
   padding-bottom: 4rem;
 }
 
+#specialOffer{
+  height:15rem !important;
+}
+
+.recommend{
+  margin-top: 2rem;
+}
+
+.disclaimers{
+  padding-left: 4rem;
+}
 .container{
   padding-top: 3rem;
 }
@@ -57,6 +68,7 @@ p {
 
 .card.small{
   margin-right: 5rem;
+  padding-top: 1rem;
 }
 
 .button-collapse {
