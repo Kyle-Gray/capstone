@@ -27,8 +27,9 @@ p {
 }
 
 #specialOffer {
-    height: 15rem !important;
+    height: 10rem !important;
     margin-top: 15rem;
+    margin-left: 7rem;
 }
 
 #patientSpecial {
