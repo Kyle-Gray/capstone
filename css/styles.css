@@ -10,9 +10,9 @@ p {
     line-height: 2rem;
 }
 
-iframe{
-  height:15.625rem;
-  width:37.5rem;
+iframe {
+    height: 15.625rem;
+    width: 37.5rem;
 }
 
 #logo {
@@ -93,6 +93,7 @@ iframe{
     line-height: 0;
     height: auto;
     color: rgba(255, 255, 255, .9);
+    width: 100%;
 }
 
 .parallax-container .section {
@@ -107,17 +108,31 @@ iframe{
     #index-banner .section {
         top: 10%;
     }
+    #index-section {
+        box-sizing: border-box !important;
+    }
     #blackBar {
         top: 0;
     }
     nav {
         margin-top: 2rem;
     }
+    .col.s3 {
+        width: auto !important;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     #index-banner .section {
         top: 0;
+    }
+    #logo {
+        width: 40rem !important;
+        margin-top: .5rem !important;
+        padding-left: 0rem !important;
+    }
+    .col.s3 {
+        width: auto !important;
     }
 }
 
