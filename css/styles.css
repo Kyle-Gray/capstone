@@ -10,6 +10,11 @@ p {
     line-height: 2rem;
 }
 
+iframe{
+  height:15.625rem;
+  width:37.5rem;
+}
+
 #logo {
     height: 6rem !important;
     padding-left: 5rem;
